@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM golang:1.12.7
+FROM golang:1.19.11
 
 # default the go proxy
 ARG goproxy=https://proxy.golang.org
